@@ -2,6 +2,7 @@
 ------------------------------------
 This code book describes the variables, the data, and any transformations or work that was performed to clean up the data in the UCI HAR Dataset.
 The dataset used can be found [here.](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+
 Original Source of the dataset: [Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 ## Data Set Info
@@ -42,4 +43,4 @@ Using gsub(), "t", "Acc", "Gyro", "Mag", "f", and "BodyBody" were pattern matche
 
 
 ###Step 5: Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-Using the aggregate() function, the script subsets the data by Subject and Activity and applies the mean function to those subsets. It then takes the result and stores it into a data frame called "TidyData" and then exports/writes a new txt file called"TidyData.txt".
+Using the aggregate() function, the script subsets the data by Subject and Activity and applies the mean function to those subsets. It then takes the result and stores it into a data frame called "TidyData" and then exports/writes a new txt file called "TidyData.txt".
