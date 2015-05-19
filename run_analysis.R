@@ -7,22 +7,22 @@ setwd("C:/Users/Frank/Desktop/Coursera/Getting and Cleaning Data")
 
 ##Step 1 Merges the training and the test sets to create one data set.
 # Reading in the observational data
-xTest <- read.table("UCI HAR Dataset/test/X_test.txt", header=FALSE)
-xTrain <- read.table("UCI HAR Dataset/train/X_train.txt", header=FALSE)
+xTest <- read.table("test/X_test.txt", header=FALSE)
+xTrain <- read.table("train/X_train.txt", header=FALSE)
 
 # Reading in the Labels
-yTest <- read.table("UCI HAR Dataset/test/y_test.txt", header=FALSE)
-yTrain <- read.table("UCI HAR Dataset/train/y_train.txt", header=FALSE)
+yTest <- read.table("test/y_test.txt", header=FALSE)
+yTrain <- read.table("train/y_train.txt", header=FALSE)
 
 # Reading in the subjects
-subTest <- read.table("UCI HAR Dataset/test/subject_test.txt", header=FALSE)
-subTrain <- read.table("UCI HAR Dataset/train/subject_train.txt", header=FALSE)
+subTest <- read.table("test/subject_test.txt", header=FALSE)
+subTrain <- read.table("train/subject_train.txt", header=FALSE)
 
 # Reading in features
-features <- read.table("UCI HAR Dataset/features.txt", head=FALSE)
+features <- read.table("features.txt", head=FALSE)
 
 # Reads in the activity labels
-ActivityLabels <- read.table("UCI HAR Dataset/activity_labels.txt", header=FALSE)
+ActivityLabels <- read.table("activity_labels.txt", header=FALSE)
 
 # Creating the raw data frames
 mainDF <- rbind(xTest, xTrain)
