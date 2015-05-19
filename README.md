@@ -8,7 +8,7 @@ The R script assumes that all the data has been uncompressed in to a folder call
 `CodeBook.md` describes the variables, the data, and any work that was done to transform the raw data into a tidy data set.
 `run_analysis.R` contains the code to transform the data into a tidy data set and to perform the analysis required in this project.
 
-###"**NOTE**" Working Directory Must Be Set
+###NOTE: Working Directory Must Be Set
 The script assumes that the working directory contains a folder called "UCI HAR Dataset" with the data uncompressed and none of the file names changed. This can be found on line 6 of the script. Please set the working directory accordingly. 
 
 ## Project Instruction
