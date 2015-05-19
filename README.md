@@ -5,7 +5,9 @@ The dataset used in this project can be found at [https://d396qusza40orc.cloudfr
 
 ## Files
 The R script assumes that all the data has been uncompressed into the working directory with none of the file names changed.
+
 `CodeBook.md` describes the variables, the data, and any work that was done to transform the raw data into a tidy data set.
+
 `run_analysis.R` contains the code to transform the data into a tidy data set and to perform the analysis required in this project.
 
 ###NOTE: Working Directory Must Be Set
