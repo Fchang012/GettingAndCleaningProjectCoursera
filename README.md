@@ -9,7 +9,7 @@ The R script assumes that all the data has been uncompressed into the working di
 `run_analysis.R` contains the code to transform the data into a tidy data set and to perform the analysis required in this project.
 
 ###NOTE: Working Directory Must Be Set
-The script assumes that the working directory contains the data uncompressed none of the file names changed. This can be found on line 6 of the script. Please set the working directory accordingly when running the script. 
+The script assumes that the working directory contains the data uncompressed with none of the file names changed. This can be found on line 6 of the script. Please set the working directory accordingly when running the script. 
 
 ## Project Instruction
 The following objectives are called for in this project:
